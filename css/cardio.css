@@ -115,7 +115,7 @@ header {
 	color: white;
 	opacity: 0.3;
 	background: rgba(28, 36, 65, 0.93);
-	background: url('img/headerBG.jpg');
+	background: url('https://github.com/sedoso/sedoso.github.io/blob/master/img/headerBG.jpg');
 	-webkit-filter: grayscale(55%); /* Safari 6.0 - 9.0 */
     filter: grayscale(55%);
 	background-size: cover;
@@ -329,7 +329,7 @@ section {
 .intro-table-hover {
 	-webkit-transition: background-image 0.3s ease, background-position 0.3s;
 	transition: background-image 0.3s ease, background-position 0.3s;
-	background-image: url('../img/table-2.jpg');
+	background-image: url('img/table-2.jpg');
 }
 
 .intro-table-hover h4 {
@@ -340,12 +340,12 @@ section {
 }
 
 .intro-table-hover:hover {
-	background-image: url('../img/table-2-hover.jpg');
+	background-image: url('img/table-2-hover.jpg');
 	background-position: 50% 50%;
 }
 
 .intro-table-third {
-	background-image: url('../img/table-3.jpg');
+	background-image: url('img/table-3.jpg');
 }
 
 .intro-table-hover .expand {

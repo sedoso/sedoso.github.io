@@ -114,7 +114,7 @@ header {
 	width: 100%;
 	color: white;
 	opacity: 0.3;
-	background: rgba(28, 36, 65, 0.93);
+	background: rgba(148,0,211, 0.93);
 	background: url('img/headerBG.jpg');
 	-webkit-filter: grayscale(55%); /* Safari 6.0 - 9.0 */
     filter: grayscale(55%);

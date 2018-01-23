@@ -6,3 +6,15 @@
 .sedosoText {
     font-size: 8rem !important; 
 }
+
+.fancy4 {
+    border-width: 0 0 5px;
+    border-style: solid;
+    -o-border-image: linear-gradient(45deg, #0d3349, #155274) 10% round;
+       border-image: linear-gradient(45deg, #0d3349, #155274) 10% round;
+       width: 20%;
+  }
+
+  .mb-mid {
+      margin-bottom: 10rem;
+  }

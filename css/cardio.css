@@ -40,7 +40,7 @@ body {
 .preloader div {
 	display: none;
 	/* Preload the Second Pricing Image */
-	background: url(../img/pricing2.jpg) no-repeat 9999px 9999px;
+	background: url(img/pricing2.jpg) no-repeat 9999px 9999px;
 	background-position: 9999px 9999px;
 }
 
@@ -115,7 +115,7 @@ header {
 	color: white;
 	opacity: 0.3;
 	background: rgba(28, 36, 65, 0.93);
-	background: url('../img/headerBG.jpg');
+	background: url('img/headerBG.jpg');
 	-webkit-filter: grayscale(55%); /* Safari 6.0 - 9.0 */
     filter: grayscale(55%);
 	background-size: cover;

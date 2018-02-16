@@ -156,13 +156,37 @@ hr.style-two {
 header > h1 {
   font-size: 1.7rem;
   text-align: center;
+  font-family: 'Fredoka One', cursive;
+  color: #fff;
+}
+
+header {
+  background: rgba(0, 0, 0, 0);
+  border: solid #fff 2px;
+}
+
+header:hover {
+  background: rgba(255, 45, 0, 1);
 }
 
 footer > h5 {
-  font-size: 1.3rem;
+  font-size: 1rem;
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
 }
 
 .product_img {
   width: 100%;
   min-height: 200px;
 }
+
+.myNav {
+    -webkit-transition: background .5s ease-in-out, opacity .5s ease;
+    -moz-transition: background .5s ease-in-out, opacity .5s ease;
+    transition: background .5s ease-in-out, opacity .5s ease;
+}
+
+nav > a {
+  color: white;
+}
+

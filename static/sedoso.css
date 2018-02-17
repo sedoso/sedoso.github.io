@@ -111,7 +111,7 @@ select {
     color: #fff;
     border-radius: 30px;
     border: 2px solid #fff;
-    width: 400px;
+    width: 350px;
 }
 
 option {
@@ -188,5 +188,90 @@ footer > h5 {
 
 nav > a {
   color: white;
+}
+
+
+
+/*footer#sabseNeeche {
+/* IE10+ 
+background-image: -ms-radial-gradient(center top, ellipse farthest-corner, #04105E -20%, #070E24 60%);
+
+/* Mozilla Firefox  
+background-image: -moz-radial-gradient(center top, ellipse farthest-corner, #04105E -20%, #070E24 60%);
+
+/* Opera 
+background-image: -o-radial-gradient(center top, ellipse farthest-corner, #04105E -20%, #070E24 60%);
+
+/* Webkit (Safari/Chrome 10)  
+background-image: -webkit-gradient(radial, center top, 0, center top, 359, color-stop(-20, #04105E), color-stop(60, #070E24));
+
+/* Webkit (Chrome 11+)  
+background-image: -webkit-radial-gradient(center top, ellipse farthest-corner, #04105E -20%, #070E24 60%);
+
+/* W3C Markup 
+background-image: radial-gradient(ellipse farthest-corner at center top, #04105E -20%, #070E24 60%);
+}*/
+
+footer#sabseNeeche {
+  background: linear-gradient(135deg, #121721 0%, #000000 100%) fixed;
+}
+
+.bbText {
+  color: #aaa;
+}
+
+.gradSedoso {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(top, #efd100 0, #e2a233 38%, #f0c328 60%, #fff1a3 86%, #ffe13e 100%);
+  background-size: 1em 1em;
+  color: #f8b700;
+  display: inline-block;
+  line-height: 1em;
+  position: relative;
+  z-index: auto
+}
+
+footer .open-blink {
+    content: ' ';
+    position: relative;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 20px;
+    border-radius: 50%;
+    background-color: #4caf50;
+    -webkit-animation-name: flash;
+    animation-name: flash;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+footer .social {
+  font-size: 3rem;
+  display: block;
+  padding: 0;
+  list-style-type: none;
+  margin: 0 10px;
+}
+
+.social > li {
+  float: left;
+  padding: 8px;
+}
+
+.fa-facebook:hover {
+  color: #3B5998;
+  text-shadow: 5px 5px 16px #ffffff;
+}
+
+.fa-instagram:hover {
+  color: #C32AA3;
+}
+
+.fa-google-plus-square:hover {
+  color: #DB4437;
 }
 

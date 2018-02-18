@@ -113,13 +113,14 @@ p{padding:10px}
   animation-name: fadeInRight;
 }
 
+/* For mobile phones: */
 select {
     -webkit-appearance: none;
     -moz-appearance: none;
     -o-appearance: none;
     -ms-appearance: none;
     appearance: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: block;
     margin: 30px 0;
     padding: 10px 50px 10px 20px;
@@ -128,12 +129,35 @@ select {
     color: #fff;
     border-radius: 30px;
     border: 2px solid #fff;
-    width: 350px;
+    width: 250px;
 }
 
 option {
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    select {
+    font-size: 1.6rem;
+    width: 500px;
+    }
+
+    option {
+      font-size: 1rem;
+    }
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    select {
+    font-size: 1.6rem;
+    width: 600px;
+    }
+    option {
+    font-size: 1.2rem;
+    }
+}
+
 
 .purple-grad {
   background: #466368;

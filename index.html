@@ -8,7 +8,12 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>
     jQuery(document).ready(function($) {
-            $(".sedoso-loader-overlay").addClass('w3-hide');
+            $(".sedoso-loader-overlay").addClass('fadeOutNow');
+            setTimeout(
+              function() 
+              {
+                $(".sedoso-loader-overlay").remove();
+              }, 500);
         });
     </script>
     <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Overlock|Fredoka+One|Raleway" rel="stylesheet">

@@ -14,11 +14,13 @@ body {
 }
 
 .fadeOut {
-  -webkit-animation-duration: 0.5s;
-  animation-duration: 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s
 }
 
-
+.fadeOutNow {
+  opacity: 0;
+}
 
 .carousel,
 .carousel-item,
@@ -270,7 +272,6 @@ footer .social {
   list-style-type: none;
   margin: 0 10px;
   color: #ccc;
-  tran
 }
 
 .social > li {

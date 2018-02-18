@@ -5,6 +5,21 @@ body {
     height: 100%;
 }
 
+.sedoso-loader-overlay {
+    width: 100%;
+    height: 100%;
+    background: url('../images/preloader.gif') center no-repeat #FFF;
+    z-index: 99999;
+    position: fixed;
+}
+
+.fadeOut {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+
+
+
 .carousel,
 .carousel-item,
 .active {
@@ -250,15 +265,15 @@ footer .open-blink {
 }
 
 footer .social {
-  font-size: 3rem;
-  display: block;
+  font-size: 2rem;
   padding: 0;
   list-style-type: none;
   margin: 0 10px;
 }
 
+
+
 .social > li {
-  float: left;
   padding: 8px;
 }
 
@@ -274,4 +289,3 @@ footer .social {
 .fa-google-plus-square:hover {
   color: #DB4437;
 }
-

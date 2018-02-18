@@ -33,7 +33,7 @@ body {
   background: #000;
 }
 
-.carousel-caption{padding-bottom:80px;}
+.carousel-caption{padding-bottom:2.5rem;}
 
 h2{font-size: 60px;}
 p{padding:10px}
@@ -161,10 +161,23 @@ option {
 
 .purple-grad {
   background: #466368;
-  background-image: -moz-linear-gradient(to right bottom, #ffa600, #ff9100, #ff7900, #ff5f00, #ff3e00);
-  background-image: -webkit-linear-gradient(to right bottom, #ffa600, #ff9100, #ff7900, #ff5f00, #ff3e00);
-  background-image: linear-gradient(to right bottom, #ffa600, #ff9100, #ff7900, #ff5f00, #ff3e00);
-  min-height: 100%;
+  /* IE10+ */ 
+background-image: -ms-linear-gradient(top left, #E80074 0%, #27336E 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top left, #E80074 0%, #27336E 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top left, #E80074 0%, #27336E 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #E80074), color-stop(100, #27336E));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top left, #E80074 0%, #27336E 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to bottom right, #E80074 0%, #27336E 100%);
 }
 
 .tester {
@@ -198,16 +211,19 @@ header > h1 {
   font-size: 1.7rem;
   text-align: center;
   font-family: 'Fredoka One', cursive;
+}
+
+header.w3-container {
+  background-color: rgba(0, 0, 0, 0);
+  border: solid #fff 2px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.3s;
   color: #fff;
 }
 
-header {
-  background: rgba(0, 0, 0, 0);
-  border: solid #fff 2px;
-}
-
-header:hover {
-  background: rgba(255, 45, 0, 1);
+header.w3-container:hover {
+  background-color: rgba(255, 255, 255,1);
+  color: #db36a4;
 }
 
 footer > h5 {
@@ -230,28 +246,6 @@ footer > h5 {
 nav > a {
   color: white;
 }
-
-
-
-/*footer#sabseNeeche {
-/* IE10+ 
-background-image: -ms-radial-gradient(center top, ellipse farthest-corner, #04105E -20%, #070E24 60%);
-
-/* Mozilla Firefox  
-background-image: -moz-radial-gradient(center top, ellipse farthest-corner, #04105E -20%, #070E24 60%);
-
-/* Opera 
-background-image: -o-radial-gradient(center top, ellipse farthest-corner, #04105E -20%, #070E24 60%);
-
-/* Webkit (Safari/Chrome 10)  
-background-image: -webkit-gradient(radial, center top, 0, center top, 359, color-stop(-20, #04105E), color-stop(60, #070E24));
-
-/* Webkit (Chrome 11+)  
-background-image: -webkit-radial-gradient(center top, ellipse farthest-corner, #04105E -20%, #070E24 60%);
-
-/* W3C Markup 
-background-image: radial-gradient(ellipse farthest-corner at center top, #04105E -20%, #070E24 60%);
-}*/
 
 footer#sabseNeeche {
   background: linear-gradient(135deg, #121721 0%, #000000 100%) fixed;

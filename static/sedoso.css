@@ -269,23 +269,42 @@ footer .social {
   padding: 0;
   list-style-type: none;
   margin: 0 10px;
+  color: #ccc;
+  tran
 }
-
-
 
 .social > li {
   padding: 8px;
 }
 
+.fa-facebook {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s
+}
+
+.fa-instagram {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s
+}
+
+.fa-google-plus-square {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s
+}
+
+
 .fa-facebook:hover {
   color: #3B5998;
+  font-size: 3rem;
   text-shadow: 5px 5px 16px #ffffff;
 }
 
 .fa-instagram:hover {
   color: #C32AA3;
+  font-size: 3rem;
 }
 
 .fa-google-plus-square:hover {
   color: #DB4437;
+  font-size: 3rem;
 }
